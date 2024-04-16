@@ -1,0 +1,165 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="A tribute page to Pryda">
+  <meta name="keyword" content="HTML, CSS">
+  <meta name="author" content="AJ Javadi">
+  <title>Pryda Tribute Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- START BODY  -->
+
+<!-- MAIN  -->
+<main id="main">
+
+<h1 id="title"> Tribute to Pryda </h1>
+
+<figure id="img-div">
+  <img id="image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffestivalsquad.com%2Fwp-content%2Fuploads%2F2019%2F01%2FPryda-1-1400x478.jpg&f=1&nofb=1&ipt=ad17d748c6e97a7b3591f1de209079ca47691dc5d7cd846295549f8896e085ae&ipo=images" alt="Pryda image">
+  <figcaption id="img-caption"> Pryda during HOLO / EPIC (Eric Pryda Live in Concert)</figcaption>
+
+</figure>
+
+<!-- SECTION -->
+<section id="tribute-info">
+  <h2 class="header-with-divider"> 
+    About Pryda 
+  </h2>
+  <div class="divider">
+    </div>
+
+<p> Pryda is an alias of the Swedish DJ and producer Eric Prydz. Prydz uses the Pryda moniker for releasing progressive house tracks and has been doing so since 2004. The name comes from the Pryda Recordings label, which Prydz established to release his own music. Under the Pryda alias, Eric Prydz has produced some of the most iconic tracks in the progressive house genre, known for their intricate melodies, lush soundscapes, and driving beats.
+Prydz's work as Pryda has been highly influential in the electronic dance music (EDM) scene, earning him a dedicated fan base and critical acclaim within the industry. Some of his most notable releases under this alias include "Pjanoo," "Miami to Atlanta," "Melo," and "Allein." These tracks, among others, showcase Prydz's skill in creating emotive, atmospheric, and technically sophisticated music that stands out in the electronic music scene.
+In addition to Pryda, Eric Prydz also releases music under other aliases, including Cirez D for his techno projects and his real name for more commercially oriented productions. Prydz is known for his exceptional production quality, innovative live performances (such as HOLO and EPIC shows), and his reluctance to conform to typical EDM trends, making him a unique and respected figure in the world of electronic music.
+</p>
+<hr> 
+<a id="tribute-link" href="https://en.wikipedia.org/wiki/Eric_Prydz" target="_blank">Eric Prydz - Wikipedia Entry </a>
+
+</section>
+
+
+
+
+
+
+<!-- END MAIN -->
+</main>
+
+
+
+
+
+
+
+
+
+<!-- END BODY  -->
+</body>
+</html>
+
+
+
+
+<!-- ================================
+
+AJ Javadi
+04/06/2024
+amirjavadi25@gmail.com
+
+TODO: 
+
+LINKS:
+pryda image source
+https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffestivalsquad.com%2Fwp-content%2Fuploads%2F2019%2F01%2FPryda-1-1400x478.jpg&f=1&nofb=1&ipt=ad17d748c6e97a7b3591f1de209079ca47691dc5d7cd846295549f8896e085ae&ipo=images
+
+wiki:
+https://en.wikipedia.org/wiki/Eric_Prydz
+
+=========================
+ -->
+
+** end of undefined **
+
+** start of undefined **
+
+html{
+  font-family: Tahoma,verdana;
+  background-color: black;
+  color: white;  
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  height: 
+
+}
+
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  /* max-width: 220px; */
+  margin: 0 auto;
+  /* background-color: silver; */
+  width: 80%
+}
+
+figcaption {
+  /* background-color: #222; */
+font: italic smaller sans-serif;
+padding: 3px;
+text-align: center;
+
+}
+
+figure > img {
+  max-width: 100%;
+  height: auto;
+  /* max-height: 50%; */
+  /* padding: 5px 10px 5px 10px; */
+  /* justify-content: align; */
+  display: block;
+  margin: auto;
+}
+
+h2 {
+  align-content: center;
+  border-bottom: 2px white;
+  /* display: flex; */
+  /* align-items: center; */
+  margin: 0 auto;
+  border-top:2px white;
+  width: 50%
+
+}
+
+.divider {
+padding: 1px;
+background-color: white;
+width: 100%;
+}
+
+p {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 1.1em;
+
+}
+
+
+
+** end of undefined **
+
